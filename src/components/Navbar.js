@@ -10,7 +10,7 @@ const Navbar = () => {
       justifyContent="space-around"
       sx={{
         gap: { sm: "122px", xs: "40px" },
-        mt: { sm: "32px", xs: `20px` },
+        mt: { sm: "32px", xs: "20px" },
         justifyContent: "none",
       }}
       px="20px"
@@ -22,11 +22,11 @@ const Navbar = () => {
           style={{
             width: "48px",
             height: "48px",
-            margin: "0 20px",
+            margin: "0 0px",
           }}
         />
       </Link>
-      <Stack direction="row" gap="40px" fontSize="24px" alignItem="flex-end">
+      <Stack direction="row" gap="38px" fontSize="24px" alignItem="flex-end">
         <Link
           to="/"
           style={{
@@ -42,6 +42,21 @@ const Navbar = () => {
           style={{ textDecoration: "none", color: "#3A1212" }}
         >
           Exercises
+        </a>
+        <a href="#blog" style={{ textDecoration: "none", color: "#3A1212" }}>
+          Blog
+        </a>
+        <a
+          href="#nutrition"
+          style={{ textDecoration: "none", color: "#3A1212" }}
+        >
+          Nutrition
+        </a>
+        <a
+          href="#calculators"
+          style={{ textDecoration: "none", color: "#3A1212" }}
+        >
+          Calculators
         </a>
       </Stack>
     </Stack>
