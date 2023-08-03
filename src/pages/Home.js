@@ -9,7 +9,7 @@ const Home = () => {
   const [bodyPart, setBodyPart] = useState("all"); // body part state
   const [exercises, setExercises] = useState([]);
   return (
-    <Box>
+    <Box mx="20px">
       <HeroBanner />
       <SearchExercises
         setExercises={setExercises}
